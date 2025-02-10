@@ -8,8 +8,8 @@
  * @link       https://turuncuweb.net
  * @since      1.0.0
  *
- * @package    Elementor_Revealer_Fx
- * @subpackage Elementor_Revealer_Fx/includes
+ * @package    Revealer_Fx_For_Elementor
+ * @subpackage Revealer_Fx_For_Elementor/includes
  */
 
 if (!defined('ABSPATH')) {
@@ -38,7 +38,7 @@ class Elementor_RevealFx_Extension {
         $element->start_controls_section(
             'reveal_fx_section',
             [
-                'label' => __('RevealFx Settings', 'elementor-revealer-fx'),
+                'label' => __('RevealFx Settings', 'revealer-fx-for-elementor'),
                 'tab' => \Elementor\Controls_Manager::TAB_ADVANCED,
             ]
         );
@@ -46,10 +46,10 @@ class Elementor_RevealFx_Extension {
         $element->add_control(
             'reveal_fx_enable',
             [
-                'label' => __('Activate RevealFx', 'elementor-revealer-fx'),
+                'label' => __('Activate RevealFx', 'revealer-fx-for-elementor'),
                 'type' => \Elementor\Controls_Manager::SWITCHER,
-                'label_on' => __('Evet', 'elementor-revealer-fx'),
-                'label_off' => __('Hayır', 'elementor-revealer-fx'),
+                'label_on' => __('Evet', 'revealer-fx-for-elementor'),
+                'label_off' => __('Hayır', 'revealer-fx-for-elementor'),
                 'return_value' => 'yes',
                 'default' => 'no',
             ]
@@ -58,7 +58,7 @@ class Elementor_RevealFx_Extension {
         $element->add_control(
             'reveal_fx_duration',
             [
-                'label' => __('Duration (ms)', 'elementor-revealer-fx'),
+                'label' => __('Duration (ms)', 'revealer-fx-for-elementor'),
                 'type' => \Elementor\Controls_Manager::NUMBER,
                 'default' => 500,
             ]
@@ -67,38 +67,38 @@ class Elementor_RevealFx_Extension {
         $element->add_control(
             'reveal_fx_easing',
             [
-                'label' => __('Easing', 'elementor-revealer-fx'),
+                'label' => __('Easing', 'revealer-fx-for-elementor'),
                 'type' => \Elementor\Controls_Manager::SELECT,
                 'options' => [
-                    'easeInSine' => __('easeInSine', 'elementor-revealer-fx'),
-                    'easeOutSine' => __('easeOutSine', 'elementor-revealer-fx'),
-                    'easeInOutSine' => __('easeInOutSine', 'elementor-revealer-fx'),
-                    'easeInQuad' => __('easeInQuad', 'elementor-revealer-fx'),
-                    'easeOutQuad' => __('easeOutQuad', 'elementor-revealer-fx'),
-                    'easeInOutQuad' => __('easeInOutQuad', 'elementor-revealer-fx'),
-                    'easeOutCubic' => __('easeOutCubic', 'elementor-revealer-fx'),
-                    'easeInOutCubic' => __('easeInOutCubic', 'elementor-revealer-fx'),
-                    'easeInQuart' => __('easeInQuart', 'elementor-revealer-fx'),
-                    'easeOutQuart' => __('easeOutQuart', 'elementor-revealer-fx'),
-                    'easeInOutQuart' => __('easeInOutQuart', 'elementor-revealer-fx'),
-                    'easeInQuint' => __('easeInQuint', 'elementor-revealer-fx'),
-                    'easeOutQuint' => __('easeOutQuint', 'elementor-revealer-fx'),
-                    'easeInOutQuint' => __('easeInOutQuint', 'elementor-revealer-fx'),
-                    'easeInExpo' => __('easeInExpo', 'elementor-revealer-fx'),
-                    'easeOutExpo' => __('easeOutExpo', 'elementor-revealer-fx'),
-                    'easeInOutExpo' => __('easeInOutExpo', 'elementor-revealer-fx'),
-                    'easeInCirc' => __('easeInCirc', 'elementor-revealer-fx'),
-                    'easeOutCirc' => __('easeOutCirc', 'elementor-revealer-fx'),
-                    'easeInOutCirc' => __('easeInOutCirc', 'elementor-revealer-fx'),
-                    'easeInBack' => __('easeInBack', 'elementor-revealer-fx'),
-                    'easeOutBack' => __('easeOutBack', 'elementor-revealer-fx'),
-                    'easeInOutBack' => __('easeInOutBack', 'elementor-revealer-fx'),
-                    'easeInElastic' => __('easeInElastic', 'elementor-revealer-fx'),
-                    'easeOutElastic' => __('easeOutElastic', 'elementor-revealer-fx'),
-                    'easeInOutElastic' => __('easeInOutElastic', 'elementor-revealer-fx'),
-                    'easeInBounce' => __('easeInBounce', 'elementor-revealer-fx'),
-                    'easeOutBounce' => __('easeOutBounce', 'elementor-revealer-fx'),
-                    'easeInOutBounce' => __('easeInOutBounce', 'elementor-revealer-fx'),
+                    'easeInSine' => __('easeInSine', 'revealer-fx-for-elementor'),
+                    'easeOutSine' => __('easeOutSine', 'revealer-fx-for-elementor'),
+                    'easeInOutSine' => __('easeInOutSine', 'revealer-fx-for-elementor'),
+                    'easeInQuad' => __('easeInQuad', 'revealer-fx-for-elementor'),
+                    'easeOutQuad' => __('easeOutQuad', 'revealer-fx-for-elementor'),
+                    'easeInOutQuad' => __('easeInOutQuad', 'revealer-fx-for-elementor'),
+                    'easeOutCubic' => __('easeOutCubic', 'revealer-fx-for-elementor'),
+                    'easeInOutCubic' => __('easeInOutCubic', 'revealer-fx-for-elementor'),
+                    'easeInQuart' => __('easeInQuart', 'revealer-fx-for-elementor'),
+                    'easeOutQuart' => __('easeOutQuart', 'revealer-fx-for-elementor'),
+                    'easeInOutQuart' => __('easeInOutQuart', 'revealer-fx-for-elementor'),
+                    'easeInQuint' => __('easeInQuint', 'revealer-fx-for-elementor'),
+                    'easeOutQuint' => __('easeOutQuint', 'revealer-fx-for-elementor'),
+                    'easeInOutQuint' => __('easeInOutQuint', 'revealer-fx-for-elementor'),
+                    'easeInExpo' => __('easeInExpo', 'revealer-fx-for-elementor'),
+                    'easeOutExpo' => __('easeOutExpo', 'revealer-fx-for-elementor'),
+                    'easeInOutExpo' => __('easeInOutExpo', 'revealer-fx-for-elementor'),
+                    'easeInCirc' => __('easeInCirc', 'revealer-fx-for-elementor'),
+                    'easeOutCirc' => __('easeOutCirc', 'revealer-fx-for-elementor'),
+                    'easeInOutCirc' => __('easeInOutCirc', 'revealer-fx-for-elementor'),
+                    'easeInBack' => __('easeInBack', 'revealer-fx-for-elementor'),
+                    'easeOutBack' => __('easeOutBack', 'revealer-fx-for-elementor'),
+                    'easeInOutBack' => __('easeInOutBack', 'revealer-fx-for-elementor'),
+                    'easeInElastic' => __('easeInElastic', 'revealer-fx-for-elementor'),
+                    'easeOutElastic' => __('easeOutElastic', 'revealer-fx-for-elementor'),
+                    'easeInOutElastic' => __('easeInOutElastic', 'revealer-fx-for-elementor'),
+                    'easeInBounce' => __('easeInBounce', 'revealer-fx-for-elementor'),
+                    'easeOutBounce' => __('easeOutBounce', 'revealer-fx-for-elementor'),
+                    'easeInOutBounce' => __('easeInOutBounce', 'revealer-fx-for-elementor'),
                 ],
                 'default' => 'easeInOutQuint',
             ]
@@ -107,7 +107,7 @@ class Elementor_RevealFx_Extension {
         $element->add_control(
             'reveal_fx_delay',
             [
-                'label' => __('Delay (ms)', 'elementor-revealer-fx'),
+                'label' => __('Delay (ms)', 'revealer-fx-for-elementor'),
                 'type' => \Elementor\Controls_Manager::NUMBER,
                 'default' => 0,
             ]
@@ -116,7 +116,7 @@ class Elementor_RevealFx_Extension {
         $element->add_control(
             'reveal_fx_bgcolor',
             [
-                'label' => __('Background Color', 'elementor-revealer-fx'),
+                'label' => __('Background Color', 'revealer-fx-for-elementor'),
                 'type' => \Elementor\Controls_Manager::COLOR,
                 'default' => '#f2f6f7',
             ]
@@ -125,13 +125,13 @@ class Elementor_RevealFx_Extension {
         $element->add_control(
             'reveal_fx_direction',
             [
-                'label' => __('Direction', 'elementor-revealer-fx'),
+                'label' => __('Direction', 'revealer-fx-for-elementor'),
                 'type' => \Elementor\Controls_Manager::SELECT,
                 'options' => [
-                    'lr' => __('Left -> Right', 'elementor-revealer-fx'),
-                    'rl' => __('Right -> Let', 'elementor-revealer-fx'),
-                    'tb' => __('Top -> Down', 'elementor-revealer-fx'),
-                    'bt' => __('Down -> Top', 'elementor-revealer-fx'),
+                    'lr' => __('Left -> Right', 'revealer-fx-for-elementor'),
+                    'rl' => __('Right -> Let', 'revealer-fx-for-elementor'),
+                    'tb' => __('Top -> Down', 'revealer-fx-for-elementor'),
+                    'bt' => __('Down -> Top', 'revealer-fx-for-elementor'),
                 ],
                 'default' => 'lr',
             ]
@@ -140,7 +140,7 @@ class Elementor_RevealFx_Extension {
         $element->add_control(
             'reveal_fx_coverarea',
             [
-                'label' => __('Cover Area Width (%)', 'elementor-revealer-fx'),
+                'label' => __('Cover Area Width (%)', 'revealer-fx-for-elementor'),
                 'type' => \Elementor\Controls_Manager::SLIDER,
                 'size_units' => ['%'],
                 'range' => [

@@ -6,8 +6,8 @@
  * @link       https://turuncuweb.net
  * @since      1.0.0
  *
- * @package    Elementor_Revealer_Fx
- * @subpackage Elementor_Revealer_Fx/public
+ * @package    Revealer_Fx_For_Elementor
+ * @subpackage Revealer_Fx_For_Elementor/public
  */
 
 /**
@@ -16,8 +16,8 @@
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the public-facing stylesheet and JavaScript.
  *
- * @package    Elementor_Revealer_Fx
- * @subpackage Elementor_Revealer_Fx/public
+ * @package    Revealer_Fx_For_Elementor
+ * @subpackage Revealer_Fx_For_Elementor/public
  * @author     Turuncu Internet Solutions <ping@turuncuweb.net>
  */
 class Elementor_Revealer_Fx_Public {

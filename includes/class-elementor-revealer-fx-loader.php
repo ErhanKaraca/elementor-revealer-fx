@@ -6,8 +6,8 @@
  * @link       https://turuncuweb.net
  * @since      1.0.0
  *
- * @package    Elementor_Revealer_Fx
- * @subpackage Elementor_Revealer_Fx/includes
+ * @package    Revealer_Fx_For_Elementor
+ * @subpackage Revealer_Fx_For_Elementor/includes
  */
 
 /**
@@ -17,8 +17,8 @@
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    Elementor_Revealer_Fx
- * @subpackage Elementor_Revealer_Fx/includes
+ * @package    Revealer_Fx_For_Elementor
+ * @subpackage Revealer_Fx_For_Elementor/includes
  * @author     Turuncu Internet Solutions <ping@turuncuweb.net>
  */
 class Elementor_Revealer_Fx_Loader {

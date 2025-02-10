@@ -22,7 +22,7 @@
  * @link       https://turuncuweb.net
  * @since      1.0.0
  *
- * @package    Elementor_Revealer_Fx
+ * @package    Revealer_Fx_For_Elementor
  */
 
 // If uninstall not called from WordPress, then exit.

@@ -9,8 +9,8 @@
  * @link       https://turuncuweb.net
  * @since      1.0.0
  *
- * @package    Elementor_Revealer_Fx
- * @subpackage Elementor_Revealer_Fx/includes
+ * @package    Revealer_Fx_For_Elementor
+ * @subpackage Revealer_Fx_For_Elementor/includes
  */
 
 /**
@@ -20,8 +20,8 @@
  * so that it is ready for translation.
  *
  * @since      1.0.0
- * @package    Elementor_Revealer_Fx
- * @subpackage Elementor_Revealer_Fx/includes
+ * @package    Revealer_Fx_For_Elementor
+ * @subpackage Revealer_Fx_For_Elementor/includes
  * @author     Turuncu Internet Solutions <ping@turuncuweb.net>
  */
 class Elementor_Revealer_Fx_i18n {
@@ -35,7 +35,7 @@ class Elementor_Revealer_Fx_i18n {
 	public function load_plugin_textdomain() {
 
 		load_plugin_textdomain(
-			'elementor-revealer-fx',
+			'revealer-fx-for-elementor',
 			false,
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);
