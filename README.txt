@@ -1,10 +1,11 @@
 === Revealer FX for Elementor ===
-Contributors: erhan.karaca@gmail.com, erhankaraca
+Contributors: @erhankaraca
 Donate link: https://turuncuweb.net/
-Tags: elementor, effects, fx, reveal, plugin
+Tags: elementor, effects, fx, reveal
 Requires at least: 3.8
 Tested up to: 6.7
 Stable tag: 1.0.0
+Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,9 +44,9 @@ Absolutely! It works with both the free and Pro versions of Elementor.
 
 == Screenshots ==
 
-RevealFX Settings Panel – Configure your animations easily within Elementor.
-Example Animation – Watch widgets smoothly appear on scroll.
-Advanced Customization – Fine-tune animations with custom controls.
+1. RevealFX Settings Panel – Configure your animations easily within Elementor.
+2. Example Animation – Watch widgets smoothly appear on scroll.
+3. Advanced Customization – Fine-tune animations with custom controls.
 
 == Changelog ==
 
